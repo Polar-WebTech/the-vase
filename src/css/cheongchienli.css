@@ -3,3 +3,9 @@
     padding:0;
     box-sizing: border-box;
 }
+
+
+#profile-and-button{
+    grid-row: 2/6;
+    grid-column: 13/17;
+}
