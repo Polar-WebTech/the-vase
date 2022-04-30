@@ -1,11 +1,74 @@
+@font-face {
+    font-family: gotham;
+    src: url(/src/font/Gotham-Font/GothamBook.ttf);
+  }
+
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family:gotham;
+    color: white;
 }
 
 
 #profile-and-button{
     grid-row: 2/6;
     grid-column: 13/17;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color:transparent;
+    padding-left: 15px;
 }
+
+
+#profile{
+    margin-bottom: auto;
+    align-self:flex-end;
+    margin-top: 14%;
+    margin-left: 33%;
+    margin-bottom: 12%;
+}
+
+#profile img{
+    height:50px;
+    width: 50px;
+    border-radius:50%;
+    margin-bottom: 5px;
+}
+
+#profile hr{
+    background: none #fff;
+    border: none;
+    height: 5px;
+    width:35%;
+    /* Set the hr color */
+    color:#fff;
+    margin:10px 0;
+}
+
+#profile p{
+    padding-right: 25%;
+    margin-top: 6%;
+}
+
+#director{
+    font-size:20px;
+    color: #87d7ed;
+}
+
+#trailer-button {
+    border: solid white 1px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    margin-left: 13%;
+    cursor: pointer;
+    border-radius: 25px;
+    background-color: #94a9ce;
+  }

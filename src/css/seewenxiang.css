@@ -3,15 +3,16 @@ body{
     grid-template-rows: repeat(9, 1fr);
     grid-template-columns: repeat(17, 1fr);
     height: 100vh;
-    background: url("../img/vase.jpeg") center center; 
+    background: url("../img/vase.jpeg") top center; 
     background-size: cover;
     overflow: hidden;
 }
 
 #bottom-part {
-    grid-column-start: 5;
+    grid-column-start: 6;
     grid-column-end: 17;
-    grid-row-start: 9;
+    grid-row-start: 8;
+    grid-row-end: 10;
     display: flex;
     align-items: center;
     padding: 2.5em;
