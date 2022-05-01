@@ -25,6 +25,10 @@
     font-family: gotham-light;
     font-size: 21px;
     color: rgba(138,213,236,255);
+<<<<<<< HEAD
+=======
+    padding-bottom: 10px;
+>>>>>>> 8a90879068a7ffbdb4e8afc79beeb8dedf6acdf9
 }
 
 #short-film-and-bar hr
@@ -37,9 +41,13 @@
 #spectral
 {
     font-family: gotham-light;
-    font-weight: 100;
+    font-weight: lighter;
     font-size: 140px;
+<<<<<<< HEAD
     opacity: 0.3;
+=======
+    opacity: 20%;
+>>>>>>> 8a90879068a7ffbdb4e8afc79beeb8dedf6acdf9
     position: absolute;
     z-index: 0;
     top: 300px;
@@ -51,7 +59,7 @@
 #brief-and-paragraph
 {
     margin-top: 400px;
-    width: 70%;
+    width: 75%;
 }
 
 #brief
@@ -60,13 +68,22 @@
     font-size: 21px;
     padding-bottom: 20px;
     color: rgba(138,213,236,255);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a90879068a7ffbdb4e8afc79beeb8dedf6acdf9
 }
 
 #paragraph
 {
     font-family: gotham;
     font-size: 11px;
+<<<<<<< HEAD
     opacity: 0.5;
+=======
+    opacity: 49%;
+
+>>>>>>> 8a90879068a7ffbdb4e8afc79beeb8dedf6acdf9
 }
 
 #discover-button
@@ -92,7 +109,12 @@
     font-size: 180px;
     grid-column: 4/7;
     grid-row: 2/6;
+<<<<<<< HEAD
     margin-left: 45px;
+=======
+    margin-left: 50px;
+    padding-top: 20px;
+>>>>>>> 8a90879068a7ffbdb4e8afc79beeb8dedf6acdf9
     filter: brightness(74%);
     opacity: 0.75;
 }
