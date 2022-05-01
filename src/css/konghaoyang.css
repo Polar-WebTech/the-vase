@@ -1,0 +1,100 @@
+@font-face {
+    font-family: gotham-light;
+    src:  url(/src/fonts/Gotham-Font/Gotham-XLight.otf);
+  }
+#red-colour
+{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end:10;
+    background: linear-gradient(to right, #b65157,#753140);
+
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+
+
+}
+#short-film-and-bar
+{
+    order: 2;
+}
+#short-film
+{
+    font-family: gotham;
+    font-size: 21px;
+
+}
+#short-film-and-bar hr
+{
+    background-color: #d68b9e;
+    height: 10px;
+    border: none;
+
+}
+#spectral
+{
+
+    font-family: gotham-light;
+    font-weight: 100;
+    font-size: 140px;
+    opacity: 50%;
+    position: absolute;
+    z-index: 0;
+    top: 300px;
+    left: -140px;
+    transform: rotate(-90deg);
+}
+#brief-and-paragraph
+{
+    margin-top: 400px;
+    width: 70%;
+}
+#brief
+{
+    font-family: gotham;
+    font-size: 21px;
+    padding-bottom: 20px;
+
+}
+#paragraph
+{
+    font-family: gotham;
+    font-size: 11px;
+
+}
+
+#discover-button
+{
+    width: 180;
+    height: 61;
+   margin-top: 50px;
+   margin-left: 170px;
+   padding: 10px 30px 10px 30px;
+    border: 1px solid white;
+    font-family: gotham;
+    font-size: 21px;
+    border-radius: 2em;
+    opacity: 50%;
+    color: white;
+    background-color: transparent;
+}
+#the-vase
+{
+
+    text-transform: uppercase;
+    font-family: 'Galata Sans';
+    font-weight: 100;
+    padding-left: 20px;
+    font-size: 180px;
+    grid-column: 4/7;
+    grid-row: 2/6;
+    margin-left: 70px;
+
+    filter: brightness(74%);
+
+
+
+}
