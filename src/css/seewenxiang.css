@@ -29,7 +29,7 @@ body{
  }
 
 .blue-title{
-    font-family: 'Gotham Light';
+    font-family: gotham-light;
     font-size: 21px;
     color: rgba(138,213,236,255);
 }
@@ -39,9 +39,10 @@ body{
 }
 
 .bottom-item > p {
-    font-family: 'Gotham Light';
+    font-family: gotham-light;
     font-size: 11px;
     color: white;
+    opacity: 0.7;
 }
 
 #bottom-part > i {
