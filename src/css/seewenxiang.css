@@ -3,7 +3,7 @@ body{
     grid-template-rows: repeat(9, 1fr);
     grid-template-columns: repeat(17, 1fr);
     height: 100vh;
-    background: url("../img/vase.jpeg") top center; 
+    background: url("../img/vase.jpeg") top center;
     background-size: cover;
     overflow: hidden;
 }
