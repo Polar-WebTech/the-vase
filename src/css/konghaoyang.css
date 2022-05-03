@@ -32,26 +32,29 @@
     background-color: #d68b9e;
     height: 10px;
     border: none;
+    margin-top: 10px;
+    width: 110%;
 }
 
 #spectral
 {
     font-family: gotham-light;
     font-weight: 100;
-    font-size: 140px;
+    font-size: 160px;
     opacity: 0.3;
     position: absolute;
     z-index: 0;
     top: 300px;
-    left: -140px;
+    left: -100px;
     transform: rotate(-90deg);
     opacity: 0.125;
+    margin-top: 33px;
 }
 
 #brief-and-paragraph
 {
     margin-top: 400px;
-    width: 70%;
+    width: 100%;
 }
 
 #brief
@@ -65,7 +68,7 @@
 #paragraph
 {
     font-family: gotham;
-    font-size: 11px;
+    font-size: 20px;
     opacity: 0.5;
 }
 
@@ -89,10 +92,18 @@
     text-transform: uppercase;
     font-family: 'Galata Sans';
     font-weight: 100;
-    font-size: 180px;
+    font-size: 220px;
     grid-column: 4/7;
     grid-row: 2/6;
-    margin-left: 45px;
-    filter: brightness(74%);
-    opacity: 0.75;
+    margin-left: 60px;
+    /* filter: brightness(74%); */
+    background: -webkit-linear-gradient(left, #df96aa, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 8px;
+    line-height: 90%;
+}
+
+#red-colour-elements{
+    margin-left: 80px;
 }
