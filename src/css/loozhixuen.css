@@ -1,0 +1,36 @@
+#square-upper{
+    background-color :#7d97ba;
+    grid-row:1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#square-down-1{
+    background-color:#7d97ba;
+    grid-row:8/9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#square-down-2{
+    background-color: #536e8b;
+    grid-row:9/10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#right-part{
+    display:grid;
+    grid-column:17/18;
+    grid-row:1/10;
+    grid-template-rows: repeat(9, 1fr);
+}
+
+#right-part i{
+    color: #d7eff7;
+    font-size: 40px;
+    z-index:1;
+}
