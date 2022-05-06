@@ -3,6 +3,11 @@
     src: url('/src/fonts/Gotham-Font/GothamBook.ttf');
   }
 
+@font-face {
+    font-family: gotham-light;
+    src:  url('/src/fonts/Gotham-Font/Gotham-Light.otf');
+}
+
 *{
     margin:0;
     padding:0;
@@ -47,17 +52,21 @@
     /* Set the hr color */
     color:#fff;
     margin:10px 0;
+    opacity:0.6;
 }
 
 #profile p{
     padding-right: 25%;
     margin-top: 6%;
     font-size: 11px;
+    opacity: 0.5;
 }
 
 #director{
-    font-size:20px;
-    color: #87d7ed;
+    font-size:14px;
+    color: white;
+    font-family: gotham-light;
+    opacity:0.6;
 }
 
 #trailer-button {
@@ -72,4 +81,5 @@
     cursor: pointer;
     border-radius: 25px;
     background-color: #94a9ce;
+    opacity: 0.6;
   }
