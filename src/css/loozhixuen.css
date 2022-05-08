@@ -34,3 +34,20 @@
     font-size: 30px;
     z-index:1;
 }
+#the-vase
+{
+    text-transform: uppercase;
+    font-family: 'Galata Sans';
+    font-weight: 100;
+    font-size: 180px;
+    grid-column: 4/8;
+    grid-row: 2/7;
+    margin-left: 38px;
+    /* filter: brightness(74%); */
+    opacity: 0.75;
+    background: -webkit-linear-gradient(left, #df96aa, white);
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+}
